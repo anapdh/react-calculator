@@ -1,7 +1,8 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
+// import Big from 'big.js';
 import PropTypes from 'prop-types';
 
 function HelloWorldComponent({ name }) {
@@ -14,7 +15,7 @@ function HelloWorldComponent({ name }) {
 }
 
 HelloWorldComponent.defaultProps = {
-  name: 'User',
+  name: 'Ana',
 };
 
 HelloWorldComponent.propTypes = {
@@ -22,3 +23,8 @@ HelloWorldComponent.propTypes = {
 };
 
 export default HelloWorldComponent;
+
+ReactDOM.render(
+  <HelloWorldComponent name="Ana" />,
+  document.getElementById('root'),
+);
