@@ -36,7 +36,7 @@ npm install
 
 ### Run
 
-Run the application by launching your local webserver by typing `npm run start`. If the browser doesn't open automatically, open `localhost:3000` inside your broser.
+Run the application launching your local webserver by typing `npm run start`. If the browser doesn't open automatically, open `localhost:3000` inside your browser.
 
 ## Authors
 
