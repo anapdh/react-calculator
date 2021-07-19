@@ -1,5 +1,15 @@
 # React Calculator
 > A basic calculator made with React.js
+
+# MILESTONE 2
+
+This milestone features:
+
+- Components directory in the src folder.
+- App component rendering the Display and ButtonPanel component.
+- Display component accepting the result of the calculation as an incoming prop (default value of the resulting prop is 0).
+- Button component accepting button name as a prop.
+- ButtonPanel component rendering the calculator panel with all the buttons in the following the groups: Group 1: AC, +/-, %, ÷, Group 2: 7, 8, 9, X, Group 3: 4, 5, 6, -, Group 4: 1, 2, 3, +, Group 5: 0, ., =
 ## Built With
 
 - React
