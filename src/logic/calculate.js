@@ -24,7 +24,7 @@ const Calculate = (dataObj, btnName) => {
       if (!total || !next || !operation) return 0;
       total = (total + operation + next).toString();
       break;
-    case '+': case '-': case '*': case '/':
+    case '+': case '-': case '*': case '/': case '%':
       total = operate(total, next, operation);
       break;
     case '0': case '1': case '2': case '3': case '4': case '5': case '6': case '7': case '8': case '9':
