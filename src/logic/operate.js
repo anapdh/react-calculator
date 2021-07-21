@@ -9,7 +9,7 @@ const operate = (numberOne, numberTwo, operation) => {
     case '*':
       return Big(numberOne).times(numberTwo);
     case '/':
-      return Big(numberOne).dividedBy(numberTwo);
+      return Big(numberOne).div(numberTwo);
     case '%':
       return Big(numberOne).mod(numberTwo);
     default:
